@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Personal/CV Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  <center>
+    <body>
+    <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+
+      <div class="container">
+
+        <a class="navbar-logo" href="index.html"><img src="{% static 'images/md_mahidul_moon_nametag.png' %}" style="height: 85px;width: 130px;" ></a>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+          <ul class="navbar-nav">
+            <li class="navbar-item"><a class="navbar-link" href="#section-home">Home</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#about-section">About</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#section-services">Services</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#resume-section">Resume</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#section-blog">Photography</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#section-contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="coverpic" style="background-image: url({% static 'images/DSC_0280.JPG' %});" id="section-home" >
+      <div class="container">
+        <div class="row intro-text align-items-center justify-content-center">
+          <div class="col-md-10 text-center">
+            <h1 class="site-heading site-animate">Whatever you are be <strong>a Good Man</strong></h1>
+            <p class="lead site-subheading mb-4 site-animate">Studying Dept of Software Engineering. Which is known as a large language ocean.</p>
+            <p><a href="#about-section" class="smoothscroll btn btn-primary px-4 py-3">More On Me</a></p>
+          </div>
+        </div>
+      </div>
+    </section> <!-- section -->
+
+  
+    <section class="site-section" id="about-section">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+            <img src="{% static 'images/IMG_20190628_005911_133.jpg' %}" alt="Image placeholder" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5">
+            <div class="section-heading">
+              <h2>About <strong>Me</strong></h2>
+            </div>
+            <p class="lead">Born in 1997 to become a computer engineer in modern world from Mymensing,Bangladesh.</p>
+            <p class="mb-5  ">Since I began my professional journey I’ve been lucky to have had the opportunity to collaborate on some exciting solo and collaborative projects. I take pride in all that I do and in the long-term relationships I’ve fostered in the process. I firmly believe that hard work eventually pays off, and I know that each day brings me closer to reaching my goals. Explore my portfolio, and feel free to get in touch with any questions.</p>
+
+            <p>
+              <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Contact me</a>
+              <a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Show CV</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-md-3 mb-3">
+            <div class="section-heading">
+              <h2>My <strong>Skills</strong></h2>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="skill">
+              <h3>Design</h3>
+              <div class="progress">
+                <div class="progress-bar" id="design" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>HTML5</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>CSS3</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>Python</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                  <span>92%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>Java</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>C#</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>Bootstrap</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <span>35%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>Javascript</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                  <span>35%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>PHP</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>Django</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section border-top pb-0"  id="section-services">
+      <div class="container">
+
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <div class="section-heading text-center">
+              <h2>My <strong>Services</strong></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" >
+              <span class="icon">
+                <span class="icon-phone3"></span>
+              </span>
+              <h3 class="mb-4">Traffic Control Management System</h3>
+              <p>Basically made by C which will be help to control the traffice lights just monitoring them a central.</p>
+              <p><a href="https://github.com/mahidulmoon/c-project" class="site-link">Get the Code <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" >
+              <span class="icon">
+                <span class="icon-wallet2"></span>
+              </span>
+              <h3 class="mb-4">Student Information Management System</h3>
+              <p>For any kind of organaization which are having a trouble to maintain the student information.This is very easy to use and also helpful to admin and also secured.</p>
+              <p><a href="https://github.com/mahidulmoon/java-project" class="site-link">Get the Code <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" >
+              <span class="icon">
+                <span class="icon-lightbulb"></span>
+              </span>
+              <h3 class="mb-4">Book Store Management System</h3>
+              <p>Use of Django,Javascipt,Bootstrap,HTML,CSS which will help to manage all the data of all kind of book repectedly to their type in database.</p>
+              <p><a href="https://github.com/mahidulmoon/CRUD" class="site-link">Get the Code <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" >
+              <span class="icon">
+                <span class="icon-phone3"></span>
+              </span>
+              <h3 class="mb-4">LogIn Syestem</h3>
+              <p>For better web app security and proper user verification and validation process.Made by django(python)</p>
+              <p><a href="https://github.com/mahidulmoon/django-" class="site-link">Get the Code <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" >
+              <span class="icon">
+                <span class="icon-wallet2"></span>
+              </span>
+              <h3 class="mb-4">PMI Store Assistennt</h3>
+              <p>Helpful desktop application for PMI store.Mainly focused on database. Build with C# and dotnet Framework</p>
+              <p><a href="https://github.com/mahidulmoon/dotnet-lab-project" class="site-link">Get the Code <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" >
+              <span class="icon">
+                <span class="icon-lightbulb"></span>
+              </span>
+              <h3 class="mb-4">Address Holder</h3>
+              <p>An web application to store any person address and contact number.Made with PHP,HTML,CSS,MySQL</p>
+              <p><a href="https://github.com/mahidulmoon/php-crud" class="site-link">Get the Code <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section bg-light " id="resume-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>My <strong>Resume</strong></h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-5">Education</h2>
+            <div class="resume-item mb-4">
+              <span class="date"> January 2003 - January 2004</span>
+              <h3>Primary institute</h3>
+              <p>People only remember the First and forget the Rest</p>
+              <span class="institute">Nou-Bahini institute,Dhaka</span>
+            </div>
+
+            <div class="resume-item mb-4">
+              <span class="date"> February 2004- December 2006 <br>February 2011- March 2014</span>
+              <h3>Primary & Secondary institute</h3>
+              <p>The Golden moment of my Life</p>
+              <span class="institute">Nou-Bahini institute,Chittagong</span>
+            </div>
+
+            <div class="resume-item mb-4">
+              <span class="date"> July 2014 - May 2016</span>
+              <h3>Higher Secondary</h3>
+              <p>Game changing period</p>
+              <span class="institute">Bangladesh Navy College,Chittagong</span>
+            </div>
+
+            <div class="resume-item mb-4">
+              <span class="date"> January 2017 - Present </span>
+              <h3>Bachelor of Science in SOFTWARE ENGINNERING</h3>
+              <p>Seriously thinking about life</p>
+              <span class="institute">Daffodil International University</span>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            
+
+            <h2 class="mb-5">Experience</h2>
+
+            <div class="resume-item mb-4">
+              <span class="date"> March 2013 </span>
+              <h3>Physics Olympiad</h3>
+              <p>The world is all about physics</p>
+              <span class="institute">Science</span>
+            </div>
+
+            <div class="resume-item mb-4">
+              <span class="date"> Jun 2015</span>
+              <h3>Math Olympiad</h3>
+              <p>Door of science</p>
+              <span class="institute">Science</span>
+            </div>
+
+            <div class="resume-item mb-4">
+              <span class="date"> October 2015</span>
+              <h3>ICT Intra College Programming Contest</h3>
+              <p>Learn and face the technology</p>
+              <span class="institute">College</span>
+            </div>
+
+            <div class="resume-item mb-4">
+              <span class="date"> March 2013 - Present</span>
+              <h3>Web Application Developer</h3>
+              <p>Anything you wanna know ,always be connected with the internet</p>
+              <span class="institute">Daffodil International University</span>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+    <section class="site-section" id="section-blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>My <strong>Photography</strong></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="photography">
+              <a href="#"><img src="{% static 'images/IMG_8097.JPG' %}" alt="Image placeholder" class="img-fluid"></a>
+              <div class="photography-text">
+                
+                <div class="meta">
+                  <a href="#"> Aug 7, 2018</a>
+                  <a href="#"><span class="icon-bubble"></span> 25 Comments</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="photography">
+              <a href="#"><img src="{% static 'images/IMG_20180709_201746.jpg' %}" alt="Image placeholder" class="img-fluid"></a>
+              <div class="photography-text">
+                
+
+                <div class="meta">
+                  <a href="#"> Aug 7, 2018</a>
+                  <a href="#"><span class="icon-bubble"></span> 12 Comments</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="photography">
+              <a href="#"><img src="{% static 'images/IMG_20181101_061448.jpg' %}" alt="Image placeholder" class="img-fluid"></a>
+              <div class="photography-text">
+                
+ 
+                <div class="meta">
+                  <a href="#"> Aug 7, 2018</a>
+                  <a href="#"><span class="icon-bubble"></span> 35 Comments</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="photography">
+              <a href="#"><img src="{% static 'images/IMG_20181101_060816.jpg' %}" alt="Image placeholder" class="img-fluid"></a>
+              <div class="photography-text">
+                
+                <div class="meta">
+                  <a href="#"> Aug 7, 2018</a>
+                  <a href="#"><span class="icon-bubble"></span> 41 Comments</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="photography">
+              <a href="#"><img src="{% static 'images/IMG_20181101_092008.jpg' %}" alt="Image placeholder" class="img-fluid"></a>
+              <div class="photography-text">
+                
+ 
+                <div class="meta">
+                  <a href="#"> Aug 7, 2018</a>
+                  <a href="#"><span class="icon-bubble"></span> 30 Comments</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="photography">
+              <a href="#"><img src="{% static 'images/IMG_20181101_174417.jpg' %}" alt="Image placeholder" class="img-fluid"></a>
+              <div class="photography-text">
+                
+               <div class="meta">
+                  <a href="#"> Aug 7, 2018</a>
+                  <a href="#"><span class="icon-bubble"></span> 5 Comments</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section bg-light" id="section-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>Wanna <strong>Start Work</strong> With Me?</h2>
+            </div>
+          </div>
+          
+          <div class="col-md-7 mb-5 mb-md-0">
+            <form action="" method="post"  class="site-form">
+              {% csrf_token %}
+              <h3 class="mb-5">Information Please</h3>
+              <div class="form-group">
+                <input type="text" class="form-control px-3 py-4" name="name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" name="email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" name="phone" placeholder="Your Phone">
+              </div>
+              <div class="form-group mb-5">
+                <textarea class="form-control px-3 py-4"cols="30" rows="10"  name="msg" placeholder="Write a Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5 pl-md-5">
+            <h3 class="mb-5">My Contact Details</h3>
+            <ul class="contact-details">
+              <li>
+                <span class="text-uppercase">Email</span>
+                mahidulmoon@gmail.com
+              </li>
+              <li>
+                <span class="text-uppercase">Phone</span>
+                +8801521401590
+              </li>
+              <li>
+                <span class="text-uppercase">Address</span>
+                2 no. Sailor's Colony Road <br>
+                New mooring <br>
+                Bandar, Chattagram.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-md-12 text-center">
+            <p>
+              <a href="https://www.facebook.com/mdmahidul.moon/" target="_blank" class="social-item">f</a>
+              <a href="#" class="social-item">t</a>
+              <a href="https://www.instagram.com/m4h1dul_m00n/" target="_blank" class="social-item">i</a>
+              <a href="https://www.linkedin.com/in/mahidul-moon-281509144/" target="_blank" class="social-item">in</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <p class="col-12 text-center">
+            This template is made with by <i>@Md.Mahidul Islam</i> | Copyright &copy; 2019 All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </center>
+</html>
